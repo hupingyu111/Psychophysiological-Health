@@ -1,1 +1,144 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{xeCJK}  % 支持中文字体（如果需要）
+\geometry{a4paper,margin=2cm}
 
+\title{Physiological and Psychological Feature List}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{longtable}{p{1cm}p{7cm}p{3cm}p{4cm}}
+\caption{Supplementary Table S1} \\
+\toprule
+\textbf{No.} & \textbf{Feature Name} & \textbf{Unit} & \textbf{Category} \\
+\midrule
+\endfirsthead
+
+\multicolumn{4}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\toprule
+\textbf{No.} & \textbf{Feature Name} & \textbf{Unit} & \textbf{Category} \\
+\midrule
+\endhead
+
+\midrule \multicolumn{4}{r}{{Continued on next page}} \\ \midrule
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+1 & Systolic Pressure & mmHg & Blood Pressure \\
+2 & Diastolic Pressure & mmHg & Blood Pressure \\
+3 & Systolic Pressure Standard Deviation & mmHg & Blood Pressure \\
+4 & Diastolic Pressure Standard Deviation & mmHg & Blood Pressure \\
+5 & Systolic Coefficient of Variation & \% & Blood Pressure \\
+6 & Diastolic Coefficient of Variation & \% & Blood Pressure \\
+7 & Mean Amplitude & mmHg & Blood Pressure \\
+8 & Standard Deviation of Amplitude & mmHg & Blood Pressure \\
+9 & Systolic Recovery Rate & \%/min & Blood Pressure Recovery \\
+10 & Diastolic Recovery Rate & \%/min & Blood Pressure Recovery \\
+11 & Systolic Standard Deviation Recovery Rate & \%/min & Blood Pressure Recovery \\
+12 & Diastolic Standard Deviation Recovery Rate & \%/min & Blood Pressure Recovery \\
+13 & Systolic Coefficient of Variation Recovery Rate & \%/min & Blood Pressure Recovery \\
+14 & Diastolic Coefficient of Variation Recovery Rate & \%/min & Blood Pressure Recovery \\
+15 & Mean RR Interval & ms & Heart Rate Variability \\
+16 & Mean Heart Rate & bpm & Heart Rate Variability \\
+17 & Standard Deviation of Normal-to-Normal Intervals & ms & Heart Rate Variability \\
+18 & Root Mean Square of Successive Differences & ms & Heart Rate Variability \\
+19 & Percentage of NN50 & \% & Heart Rate Variability \\
+20 & Standard Deviation of Successive Differences & ms & Heart Rate Variability \\
+21 & Coefficient of Variation of RR Intervals & \% & Heart Rate Variability \\
+22 & Low Frequency Power & ms$^2$ & Heart Rate Variability \\
+23 & High Frequency Power & ms$^2$ & Heart Rate Variability \\
+24 & Total Power & ms$^2$ & Heart Rate Variability \\
+25 & Low Frequency Normalized Power & \% & Heart Rate Variability \\
+26 & High Frequency Normalized Power & \% & Heart Rate Variability \\
+27 & Low Frequency to High Frequency Ratio & - & Heart Rate Variability \\
+28 & Low Frequency Percentage & \% & Heart Rate Variability \\
+29 & High Frequency Percentage & \% & Heart Rate Variability \\
+30 & Mean Heart Rate Recovery Rate & \%/min & HRV Recovery \\
+31 & SDNN Recovery Rate & \%/min & HRV Recovery \\
+32 & RMSSD Recovery Rate & \%/min & HRV Recovery \\
+33 & PNN50 Recovery Rate & \%/min & HRV Recovery \\
+34 & Coefficient of Variation RR Recovery Rate & \%/min & HRV Recovery \\
+35 & Low Frequency Power Recovery Rate & \%/min & HRV Recovery \\
+36 & High Frequency Power Recovery Rate & \%/min & HRV Recovery \\
+37 & Total Power Recovery Rate & \%/min & HRV Recovery \\
+38 & LF/HF Ratio Recovery Rate & \%/min & HRV Recovery \\
+39 & Low Frequency Normalized Recovery Rate & \%/min & HRV Recovery \\
+40 & High Frequency Normalized Recovery Rate & \%/min & HRV Recovery \\
+41 & Alpha Power & $\mu$V$^2$ & EEG \\
+42 & Beta Power & $\mu$V$^2$ & EEG \\
+43 & Gamma Power & $\mu$V$^2$ & EEG \\
+44 & Alpha Relative Power & \% & EEG \\
+45 & Beta Relative Power & \% & EEG \\
+46 & Gamma Relative Power & \% & EEG \\
+47 & Beta to Alpha Power Ratio & - & EEG \\
+48 & Gamma to Alpha Power Ratio & - & EEG \\
+49 & Multiscale Entropy Complexity Index & - & EEG \\
+50 & Multiscale Entropy Mean & - & EEG \\
+51 & Multiscale Entropy Standard Deviation & - & EEG \\
+52 & Correlation Dimension & - & EEG \\
+53 & Dominant Frequency & Hz & Electrogastrography \\
+54 & Dominant Frequency (Cycles Per Minute) & cpm & Electrogastrography \\
+55 & Dominant Frequency Standard Deviation & Hz & Electrogastrography \\
+56 & Dominant Frequency Stability & \% & Electrogastrography \\
+57 & EGG Amplitude & mV & Electrogastrography \\
+58 & RMS Amplitude & mV & Electrogastrography \\
+59 & Mean Amplitude & mV & Electrogastrography \\
+60 & Standard Deviation of Amplitude & mV & Electrogastrography \\
+61 & Dominant Power & mV$^2$ & Electrogastrography \\
+62 & Normal Power Percentage & \% & Electrogastrography \\
+63 & Slow Wave Percentage & \% & Electrogastrography \\
+64 & Fast Wave Percentage & \% & Electrogastrography \\
+65 & Pulse Wave Amplitude Mean & mV & Pulse Wave \\
+66 & Pulse Wave Amplitude Standard Deviation & mV & Pulse Wave \\
+67 & Pulse Wave Amplitude Coefficient of Variation & \% & Pulse Wave \\
+68 & Pulse Wave Transit Time Mean & ms & Pulse Wave \\
+69 & Pulse Wave Transit Time Standard Deviation & ms & Pulse Wave \\
+70 & Pulse Wave Transit Time Coefficient of Variation & \% & Pulse Wave \\
+71 & Upstroke Slope Mean & mV/s & Pulse Wave \\
+72 & Upstroke Slope Standard Deviation & mV/s & Pulse Wave \\
+73 & Downstroke Slope Mean & mV/s & Pulse Wave \\
+74 & Downstroke Slope Standard Deviation & mV/s & Pulse Wave \\
+75 & Maximum Downstroke Slope & mV/s & Pulse Wave \\
+76 & Minimum Downstroke Slope & mV/s & Pulse Wave \\
+77 & Profile of Mood States (POMS) & Score & Psychological \\
+78 & Satisfaction with Life Scale (SWLS) & Score & Psychological \\
+79 & Life Orientation Test-Revised (LOT-R) & Score & Psychological \\
+80 & Tension & Score & Psychological \\
+81 & Anger & Score & Psychological \\
+82 & Fatigue & Score & Psychological \\
+83 & Depression & Score & Psychological \\
+84 & Vigor & Score & Psychological \\
+85 & Confusion & Score & Psychological \\
+86 & Self-Related Emotions & Score & Psychological \\
+87 & Negative Emotion Dimension & Score & Psychological \\
+88 & Positive Emotion Dimension & Score & Psychological \\
+89 & Energy-Fatigue Dimension & Score & Psychological \\
+90 & Positive Emotion Ratio & Ratio & Psychological \\
+91 & Emotional Stability & Score & Psychological \\
+
+\end{longtable}
+
+\vspace{1cm}
+
+\textbf{Abbreviations and Units:}
+\begin{itemize}
+\item \textbf{bpm} = beats per minute; \textbf{ms} = milliseconds; \textbf{mmHg} = millimeters of mercury
+\item \textbf{Hz} = Hertz; \textbf{cpm} = cycles per minute; \textbf{mV} = millivolts; \textbf{$\mu$V} = microvolts
+\item \textbf{SDNN} = Standard Deviation of Normal-to-Normal intervals
+\item \textbf{RMSSD} = Root Mean Square of Successive Differences
+\item \textbf{PNN50} = Percentage of NN50; \textbf{EGG} = Electrogastrography; \textbf{HRV} = Heart Rate Variability
+\item Psychological scores are standardized questionnaire scores
+\end{itemize}
+
+\end{document}
