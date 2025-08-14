@@ -32,18 +32,10 @@ The 91 features are organized into the following categories:
 - `supplementary_table_s1.pdf` - Complete feature table in PDF format
 - `supplementary_table_s1.tex` - LaTeX source code for the table
 
-### Usage
-
-To cite this supplementary material in your research:
-
-```
-[Author Names]. "Title of Paper." Conference/Journal Name. Supplementary materials available at: https://github.com/[username]/[repository-name]
-```
-
 ### Data Availability
 
 The feature definitions and measurement protocols described in Supplementary Table S1 follow established standards in physiological and psychological research. All abbreviations and units are explained in the table notes.
 
 ---
 
-**Note**: This supplementary table is part of the manuscript submitted to [Conference/Journal Name]. Please refer to the main paper for detailed methodology and analysis results.
+**Note**: This supplementary table is part of the manuscript submitted to ICSPS 2025 (2025 The 17th International Conference on Signal Processing Systems (ICSPS)). Please refer to the main paper for detailed methodology and analysis results.
